@@ -3,10 +3,9 @@ import React from 'react'
 
 const _layout = () => {
   return (
-    <Tabs>
+    <Tabs >
         <Tabs.Screen name="Profile" options={{ title: "Profile Page" }} />
         <Tabs.Screen name="Settings" options={{ title: "Settings Page" }} />
-
     </Tabs>
   )
 }
